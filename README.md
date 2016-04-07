@@ -8,8 +8,8 @@
 first clone and install dependencies
 
 ```shell
-git clone git@github.com:AD2014/app.let.life.git
-cd app.let.life
+git clone git@github.com:AD2014/webify
+cd webify
 npm install
 ``````
 
@@ -21,10 +21,7 @@ the `npm install` will run `bower install` and `gulp build` to generate all the 
 npm test
 ```
 
-## Branches
 
-- push on `master` will deploy on https://app.dev.let.life
-- push on `production` will deploy on https://app.let.life
 
 ## how to develop
 
