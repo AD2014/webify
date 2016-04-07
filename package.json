@@ -1,0 +1,28 @@
+{
+  "name": "webify",
+  "description": "AD2014 Web App",
+  "author": "AD2014 Team",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/bower install --force-latest --config.interactive=false && ./node_modules/.bin/gulp build --target=$NODE_ENV",
+    "test": "./node_modules/.bin/eslint app/**/*.js && ./node_modules/.bin/gulp test_ci",
+    "clean": "./node_modules/.bin/gulp clean"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "eslint": "^1.6.0",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-ng-config": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.5",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.14",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6"
+  }
+}

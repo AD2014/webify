@@ -1,0 +1,37 @@
+<nav class="navbar navbar-default llheader">
+  <div class="navbar-header">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#/timeline/view">
+        <img src="images/icons/letlife@2x-white.png">
+      </a>
+    </div>
+  </div>
+
+  <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav header-nav" style="float: right !important;">
+      <li><a href="#/anima/view" translate><span class="glyphicon glyphicon-folder-open"></span>  {{::"HEADER_AUTH.anime"}}</a></li>
+      <li><search search="{{vm.searchBox}}"></search></li>
+
+      <!--<li><a class="" href="#/notifiche"><span class="glyphicon glyphicon-lamp"></span></a></li>
+      <li><a class="" href="#/notifiche"><span class="glyphicon glyphicon-envelope"></span></a></li>-->
+
+      <li uib-dropdown>
+        <a uib-dropdown-toggle data-toggle="dropdown" onclick="return false;" href="#" aria-expanded="true">
+          <span class="glyphicon glyphicon-cog"></span>
+        </a>
+        <ul uib-dropdown-menu>
+          <li><a href="#/profilo" translate>{{::"MENU.profilo"}}</a></li>
+          <li><a ng-click="vm.logout()" href="#" translate>{{::"MENU.logout"}}</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+</nav>

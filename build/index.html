@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html id="html" lang="en" ng-app="LetLife">
+<head>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <title>Let.Life</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="vendors/angular-material/angular-material.min.css">
+
+</head>
+<body >
+  <div ng-controller="HeaderController as vm">
+    <div ng-include="vm.template"></div>
+  </div>
+  <div ng-view></div>
+
+
+
+  <!-- Vendor JS -->
+  <script src="vendors/angular/angular.js"></script>
+
+  <script src="vendors/angular-route/angular-route.js"></script>
+  <script src="vendors/ngstorage/ngStorage.js"></script>
+  <script src="vendors/angular-resource/angular-resource.min.js"></script>
+  <script src="vendors/angular-aria/angular-aria.min.js"></script>
+  <script src="vendors/angular-messages/angular-messages.min.js"></script>
+  <script src="vendors/angular-material/angular-material.min.js"></script>
+
+
+  <!-- LetLife CSS -->
+  <link rel="stylesheet" type="text/css" href="letlife/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="letlife/custom.css"> -->
+  <link rel="stylesheet" type="text/css" src="vendors/ng-img-crop/compile/uniminified/ng-img-crop.css">
+  <!-- LetLife JS -->
+  <script src="letlife/bundle.js"></script>
+  <script src="letlife/config.js"></script>
+  <!-- Vendor CSS -->
+
+</body>
+</html>

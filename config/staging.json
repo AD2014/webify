@@ -1,0 +1,7 @@
+{
+  "ENV": "staging",
+  "API": {
+    "url" : "https://api-ssl2.let.life",
+    "authBasic" : "xxxxxxxxxxxxxxxxxx="
+  }
+}

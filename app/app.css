@@ -1,0 +1,15 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif !important;
+  text-align: center;
+ /* background: #E9FAFB !important;
+  background-color: #E9FAFB !important;*/
+  
+  background: url('../images/bg/bg_full_prelog.jpg') no-repeat center center fixed;
+  background-color:transparent;
+}
+
+
+

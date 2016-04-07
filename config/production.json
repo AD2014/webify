@@ -1,0 +1,7 @@
+{
+  "ENV": "production",
+  "API": {
+    "url" : "https://api.let.life",
+    "authBasic" : "xxxxxxxxxxxxxxxxxx="
+  }
+}

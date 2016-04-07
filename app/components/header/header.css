@@ -1,0 +1,33 @@
+
+.navbar{
+  box-shadow: 0px 0px 20px #555 !important;
+  background: #25C7d1 !important;
+  height: 90px !important;
+  border: 0px !important;
+}
+
+.navbar-brand img{
+  height: 70px;
+}
+/*.navbar-nav {float: right !important; margin: 0 50px !important;}*/
+.navbar-nav li {
+  margin: 20px;
+  padding: 0px 11px 0px 0px;
+}
+.navbar-nav li a{
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .85em;
+}
+
+.navbar-nav li i.divider{
+  background: #fff;
+  margin-top: 15px;
+  height: 20px;
+  width: 1px;
+  display: block;
+}
+.navbar .collapse ul ul {
+background: #82C4c4;
+}

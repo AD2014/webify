@@ -1,0 +1,30 @@
+{
+  "jsSrc":[
+    "app/app.js",
+    "app/**/*module.js",
+    "app/**/*route.js",
+    "app/**/*.js",
+    "!app/**/*specs.js"
+  ],
+
+  "htmlSrc":[
+    "app/**/*.html"
+  ],
+
+  "cssSrc":[
+    "app/**/*.css",
+    "!app/components/customCss/*.css"
+  ],
+
+  "jsonSrc":[
+    "app/**/*.json"
+  ],
+
+  "buildLibs": [
+    "build/letlife",
+    "build/view",
+    "build/vendors"
+  ],
+
+  "DEST": "build/letlife"
+}
