@@ -26,5 +26,5 @@
     "build/vendors"
   ],
 
-  "DEST": "build/letlife"
+  "DEST": "build/libs"
 }

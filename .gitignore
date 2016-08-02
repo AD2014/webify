@@ -3,9 +3,13 @@ node_modules
 bower_components
 *.log
 *.swp
-config/custom*.json
+config/*.json
+!config/devel.json
+config/production.json
+config/staging.json
 scripts/config.js
-build/letlife
+build/libs
 build/vendors
 build/view
+build/index.html
 coverage
