@@ -5,9 +5,8 @@ bower_components
 *.swp
 config/*.json
 !config/devel.json
-config/production.json
-config/staging.json
-scripts/config.js
+!config/production.json
+!config/staging.json
 build/libs
 build/vendors
 build/view
